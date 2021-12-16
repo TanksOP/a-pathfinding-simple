@@ -27,11 +27,13 @@ public:
 		selectionY = y / 32;
 	}
 	void update();
+	void UpdatePath();
 	void draw() {
-		SDL_Rect dest = { selectionX * 32, selectionY * 32, 32, 32 };
-		SDL_RenderCopy(renderer, selectionTile, 0, &dest);
+		SDL_FRect dest = { selectionX * 32, selectionY * 32, 32, 32 };
+		SDL_RenderCopyF(renderer, selectionTile, 0, &dest);
 		dest = { playerX * 32, playerY * 32, 32, 32 };
-		SDL_RenderCopy(renderer, player, 0, &dest);
+		SDL_RenderCopyF(renderer, player, 0, &dest);
+		
 	}
 	void clean() { SDL_DestroyTexture(player); SDL_DestroyTexture(selectionTile); }
 private:
@@ -40,8 +42,11 @@ private:
 	Map * map;
 	SDL_Texture * selectionTile;
 	int selectionX = -1, selectionY = -1;
-	int playerX = 1, playerY = 1;
+	float playerX = 1, playerY = 1;
 	unsigned int lastUpdate = 0;
 
 	std::vector<Node> path;
+	
+	bool playerMoving = false;
+	float speed = 1.f/20.f;
 };

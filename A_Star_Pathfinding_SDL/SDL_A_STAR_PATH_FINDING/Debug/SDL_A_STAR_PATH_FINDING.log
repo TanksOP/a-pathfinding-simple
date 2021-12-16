@@ -1,2 +1,21 @@
-﻿  Player.cpp
+﻿  GameLoop.cpp
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Main.cpp
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,33): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.h(32,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.cpp(13,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.cpp(14,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.cpp(54,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\SDL_A_STAR_PATH_FINDING\Player.cpp(55,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
   SDL_A_STAR_PATH_FINDING.vcxproj -> C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\Debug\SDL_A_STAR_PATH_FINDING.exe
