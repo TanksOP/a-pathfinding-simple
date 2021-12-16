@@ -1,13 +1,2 @@
-﻿  AStarSearch.cpp
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(34,15): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(64,26): warning C4101: 'e': unreferenced local variable
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(149,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(150,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(151,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  GameLoop.cpp
-  Main.cpp
-  Player.cpp
-  Generating Code...
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(67): warning C4715: 'makePath': not all control paths return a value
-C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\SDL_A_STAR_PATH_FINDING\AStarSearch.cpp(167): warning C4715: 'aStar': not all control paths return a value
-  SDL_A_STAR_PATH_FINDING.vcxproj -> C:\Users\Carlo\Downloads\SDL_A_STAR_PATH_FINDING\Debug\SDL_A_STAR_PATH_FINDING.exe
+﻿  Player.cpp
+  SDL_A_STAR_PATH_FINDING.vcxproj -> C:\Users\jw956\Documents\GitHub\astarpath\a-pathfinding-simple\A_Star_Pathfinding_SDL\Debug\SDL_A_STAR_PATH_FINDING.exe

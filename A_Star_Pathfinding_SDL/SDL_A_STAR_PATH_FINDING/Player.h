@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 #include <SDL.h>
 #include <SDL_image.h>
 
@@ -42,4 +42,6 @@ private:
 	int selectionX = -1, selectionY = -1;
 	int playerX = 1, playerY = 1;
 	unsigned int lastUpdate = 0;
+
+	std::vector<Node> path;
 };

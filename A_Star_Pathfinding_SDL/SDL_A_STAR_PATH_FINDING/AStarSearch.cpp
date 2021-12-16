@@ -75,6 +75,8 @@ if (isDestination(player.x, player.y, dest)) {
 	return empty;
 }
 bool closedList[32][24];
+
+// makes every point on the map have node values
 array<array < Node, 24>, 32> allMap;
 for (int x = 0; x < 32; x++) {
 	for (int y = 0; y < 24; y++) {
@@ -97,6 +99,7 @@ allMap[x][y].hCost = 0.0f;
 allMap[x][y].parentX = x;
 allMap[x][y].parentY = y;
 
+// creates the vector open list and sets the fist value to the player position
 vector<Node> openList;
 openList.emplace_back(allMap[x][y]);
 bool destinationFound = false;
